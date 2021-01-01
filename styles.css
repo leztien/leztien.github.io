@@ -1,0 +1,288 @@
+/* Comment */
+
+body {
+
+	background-color:#ccd9ff;
+	font-family: "Brush Script MT", Cursive, sans-serif;  /* default font types*/ 
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+
+}
+
+
+h1,h2,h3 {color:#00004d;}
+h2,h3,h4{margin-top:50px;}
+
+#banner {height:15vw;   /*250*/ 
+	width:100%;
+	box-sizing: border-box;
+	vertical-align:bottom;}
+
+
+#userbanner {
+	width: 100%;
+	color:#dddddd;
+	background-color: #ff4d4d;
+	border: 2px solid #800000;
+	box-sizing: border-box;
+	display:inline-block;
+	padding-top:5px;
+	padding-bottom:5px;
+	vertical-align:center;
+}
+
+
+
+#logo {
+	top:2vw;  /*25px*/
+	left:2vw; /*25px*/
+	position:absolute;
+	width:13vw;  /*220px*/
+
+}
+
+#vision {
+	font-family: "Garamond"	, "Times New Roman";
+	font-size:3.5vw;
+	position: absolute;
+	top:3vw;
+	right:2vw;
+	text-align: right;
+	color:#990000;
+	letter-spacing:0.4vw;
+	line-height:1;
+	max-width:65%;
+}
+
+#vision span {
+	color:#b30000;
+	font-size:1.25vw;
+	letter-spacing:0.1vw;}
+  
+
+/* USER BANNER */
+
+div.input_field {
+	float:right;
+
+}
+
+#user,#pw{
+	font-size:12px;
+    	color:#aaaaaa;
+    	margin-right:5px;
+	vertical-align:middle;
+	display: inline-block;
+}
+
+#button {
+	color:#555555;
+	font-size:12px;
+	margin-right:5px;
+	vertical-align:middle;
+	display: inline-block;
+}
+
+
+#date {
+	text-align:left;
+	font-size:1vw;
+	vertical-align:middle;
+	padding-left:5px;
+	display: inline-block;
+}
+
+
+nav {
+	min-width: 100px;
+	max-width:230px;
+	margin-top:25px;
+}
+
+nav>ul {
+	list-style-type: none;
+	background-color: #f1f1f1;
+	border: 1px solid #555;
+	margin:0;
+	padding:0;
+}
+
+nav>ul>li {
+	border-bottom: 1px solid #555;
+}
+
+nav>ul>li a {
+	display:block;
+	text-decoration: none;
+	padding: 8px 16px;
+	text-align: center;
+	color:#990000;
+	font-weight:bold;
+	background-color:#b3d9ff;
+}
+
+nav>ul>li:last-child {
+  	border-bottom: none;
+}
+
+nav>ul>li a.active {
+	background-color: #004d99;
+	color: white;
+}
+
+nav>ul>li a:hover:not(.active) {
+	background-color: #80bfff;
+	color: white;
+}
+
+.column {
+	box-sizing: border-box;
+	float:left;
+	width:20%;
+	padding:10px;
+
+}
+
+div.column {width:80%;}
+
+
+footer {
+	clear:left;
+	margin:auto;
+	width:200px;
+	text-align:center;
+	display:block;
+	margin-top:800px;
+	padding-top:100px;
+	font-size:small;
+}
+
+
+/* Content */
+
+
+div.frame {
+	border:2px solid darkgreen;
+    	padding:15px;
+    	text-align:justify;
+    	overflow:auto;
+}
+
+
+div.images_float > img {
+	width:33%;
+	padding-right:10px;
+	box-sizing: border-box;
+    	float:left;
+    	vertical-align: bottom;
+    	max-height:495px;
+}
+
+div.images_inline_block > img {
+	width:33%;
+	padding-right:10px;
+	box-sizing: border-box;
+    	display: inline-block;
+    	vertical-align: bottom;
+    	max-height:495px;
+}
+
+
+div.fixed {
+	position:fixed;
+	top:320px;
+	right:10px;
+	width:270px;
+	height:100px;
+	border:4px dotted darkred;
+	background-color:pink;
+	opacity:0.65;
+	text-align:left;
+	vertical-align:middle;
+
+	display:block;
+	margin:auto;
+}
+
+div.fixed > p > a {
+	text-decoration:none;
+	display: inline-block;
+	padding: 10px 25px;
+ 	text-align: center;
+
+}
+
+
+
+div.product {
+	height:200px;
+	width:200px;
+	margin:10px;
+	padding:3px;
+	background-color:#9f9fdf;
+	float:left;
+	box-sizing: border-box;
+	
+}
+
+
+div.product>p {
+	margin:auto;
+	text-align:center;
+	padding-bottom:2px;
+}
+
+div.product>span {
+
+}
+
+div.product>span>img {
+	width:130px;
+	height:130px;
+	border:1px solid white;
+	margin:auto;
+	display:block;
+	margin-bottom:5px;
+}
+
+div.product>div {
+  	margin:auto;
+  	clear:both;
+  }
+  
+  div.product>div>button {
+  	font-size:15px;
+	display:block;
+  	margin:auto;
+  }
+  
+
+table {
+  font-family: Copperplate, Papyrus, Helvetica;
+  width: 40%;
+  color:navy;
+}
+
+td, th {
+  border: 1px solid rgba(255, 255, 255, 0.0);
+  text-align: left;
+  padding: 7px;
+  font-size:large;
+}
+
+th{font-size:22px;}
+
+.total {
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+#dropdown_menu {
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+
+

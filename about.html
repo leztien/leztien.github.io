@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Logo GmbH</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" href="styles.css">
+
+ <script src="script.js"></script>
+
+ <style>
+ 
+
+ </style>
+
+
+
+
+</head>
+<body>
+ <img src="images/banner.png" alt="banner" id="banner">
+ <img src="images/logo.png" alt="logo" id="logo">
+ <div id="vision">Some cheesy mission and vision message from CEO.<br><span><i>Name Surname CEO</i></span></div>
+ 
+ 
+ <div id="userbanner">
+ 	<!--
+  	<div style="text-align:left;" id="date">(Date)</div>
+  	-->
+  	
+   <form onsubmit="login()" id="form">
+     <div class="input_field"> <input type="submit" value="Log in" id="button"> </div>
+     <div class="input_field"> <input type="text" id="pw" name="pw" value="password" onfocusin=focus_pw_field();> </div>
+     <div class="input_field"> <input type="text" id="user" name="user" value="user" onfocusin="focus_user_field();"> </div>
+   </form> 
+   <div id="date">(Date)</div>
+ </div>
+ 
+
+
+ <nav class="column">
+  <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="store.html">Store</a></li>
+   <li><a href="about.html" class="active">About</a></li> 
+  </ul>
+ </nav>
+ 
+ 
+ <div class="column">
+  <h1>Information about our company</h1>
+ 
+ <h3>Contact</h3>
+  <address>
+  Logo GmbH<br>
+  Königstraße 42<br>
+  Hamburg 98765<br><br>
+  mail: <a href="mailto:logo@gmbh.com">logo@gmbh.com</a>.<br> 
+  </address>
+ 
+ 
+ 
+ 
+  <div>
+   <h3>Other information</h3>
+   
+   <p>Download and read our service conditions <a href="file.pdf">here</a></p>
+
+
+
+  </div>
+ 
+
+  
+  
+  
+  
+   
+ <!-- fixed -->
+ <div class="fixed">
+ <p>
+ <a href="http://www.buynowimmediately.com" target="_blank">
+ Some annoying ad.<br>Buy our product until it's too late.
+ </a>
+ </p>
+ <a href="#" style="position:absolute;top:0;right:1px;text-decoration:none;" onclick="document.querySelector('.fixed').remove();"><span>X</span></a>
+ </div>
+  
+  
+  
+  
+  
+  
+  
+  <section style="height:100px;"></section>
+     
+  </div>
+ 
+<footer>
+ Logo GmbH &copy;2020
+</footer>
+
+ <script>
+  document.querySelector("#date").innerHTML = new Date().toDateString();
+  check_logged_in();
+ </script>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Logo GmbH</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" href="styles.css">
+
+ <script src="script.js"></script>
+
+ <style>
+ 
+
+ </style>
+
+
+
+
+</head>
+<body>
+ <img src="images/banner.png" alt="banner" id="banner">
+ <img src="images/logo.png" alt="logo" id="logo">
+ <div id="vision">Some cheesy mission and vision message from CEO.<br><span><i>Name Surname CEO</i></span></div>
+ 
+ 
+ <div id="userbanner">
+ 	<!--
+  	<div style="text-align:left;" id="date">(Date)</div>
+  	-->
+  	
+   <form onsubmit="login()" id="form">
+     <div class="input_field"> <input type="submit" value="Log in" id="button"> </div>
+     <div class="input_field"> <input type="text" id="pw" name="pw" value="password" onfocusin=focus_pw_field();> </div>
+     <div class="input_field"> <input type="text" id="user" name="user" value="user" onfocusin="focus_user_field();"> </div>
+   </form> 
+   <div id="date">(Date)</div>
+ </div>
+ 
+
+
+ <nav class="column">
+  <ul>
+   <li><a href="index.html" class="active">Home</a></li>
+   <li><a href="store.html">Store</a></li>
+   <li><a href="about.html">About</a></li> 
+  </ul>
+ </nav>
+ 
+ 
+ <div class="column">
+  <h1>General information</h1>
+ 
+  <div>
+   <h2>Text and a picture inside a box</h2>
+
+	<div class="frame"><img src="images/image01.jpg" alt="Image" style="width:170px;height:170px;margin-left:15px;float:right">
+	Vor langer Zeit, so lange her, dass sich niemand mehr daran erinnern kann, wuchsen auf dem Gipfel des Berges, wunderschöne Pflanzen, Namu genannt. Viele Jahre wussten die Menschen nichts von ihrer Existenz. Sie wuchsen in Frieden unter dem Schutz der Götter auf und füllten die Luft mit Frische und köstlichem Duft. Aber einmal stieg ein Mann in die Berge hinauf. Fasziniert von dem zarten Duft fand er schnell den Platz, wo die Namu wuchsen. Ohne nachzudenken, riss er rücksichtslos alle Pflanzen bis zur letzten Namu aus. Götter, die auf die Erde runter sahen, wie ihre Lieblingskreaturen zugrunde gingen, schickten ihren Fluch auf ihn. Die Beine des Mannes wurden taub, seine Haut wurde rau und hart, und seine Seele verlies langsam seinen Körper. Sie zog in den Samen der letzten Namu, die er noch in seiner Hand hielt.
+	</div>
+
+  </div>
+ 
+ 
+ 
+  <div>
+   <h2>Images Floated Side by Side</h2>
+   <div class="images_float" style="vertical-align:bottom;">
+    <img src="images/image02.jpg" alt="Image">
+    <img src="images/image03.jpg" alt="Image">
+    <img src="images/image04.jpg" alt="Image">
+   </div>
+   <p style="clear:left;padding-top:15px;">Der Regen bewässerte den Samen, und die Sonnenstrahlen streichelten ihn mit ihrer Wärme. Bald darauf keimte der Samen und eine neue, junge Namu entsprang aus ihm, die bald prächtig blühte, schöner und größer als je zuvor. Eines Tages kam ein Junge an diesen Ort. Namu hatte noch nie einen Menschen gesehen, aber von Vögeln hatte sie schreckliche Geschichten über sie gehört. Die Vögel hatten ihr erzählt, wie grausam die Menschen sind, wie sie Tiere, Pflanzen und Vögel fressen und wie sie alles Lebende auf ihrem Weg zerstören. Und oft machten sie es einfach nur zum Spaß. Namu hielt vor Entsetzen den Atem an und bereitete sich auf das Schlimmste vor.</p><p>Der Junge kam ganz nahe an sie heran. Vom zarten Duft der Blüten verzaubert sank er ins Gras, um sie besser sehen zu können. „Wer bist du?“, fragte der Junge, „ich habe noch nie eine so wundervolle Pflanze gesehen.“ Namu sah den Jungen von der Seite an, so dass er nicht bemerkte, dass sie ihn beobachtete. Er war überhaupt nicht wie die rücksichtslosen Schurken, über die ihr die Vögel erzählt hatten. „Wenn er mich verletzen wollte, würde er mich vorher noch nach meinem Namen fragen? Nein, er ist bestimmt kein Mensch, er ist einfach ein seltsames Tierchen“, dachte sie und sagte leise:<br>„Namu, mein Name ist Namu. Und wer bist du? Ich habe noch nie ein Tier mit so wenig Fell gesehen“.</p>
+   
+   <details style="font-size:16px;font-family:Verdana">
+    <summary>More info on images layout</summary>
+    <p style="margin-left:10px;">Compare the dynamics of these two layouts when changing the screen size or using a mobile device.</p>
+   </details>
+  </div>
+ 
+ 
+ 
+ 
+  <div>
+   <h2>Images Lined Side by Side</h2>
+   <div class="images_inline_block" style="vertical-align:bottom;">
+    <img src="images/image02.jpg" alt="Image">
+    <img src="images/image03.jpg" alt="Image">
+    <img src="images/image04.jpg" alt="Image">
+   </div>
+   <p>Der Regen bewässerte den Samen, und die Sonnenstrahlen streichelten ihn mit ihrer Wärme. Bald darauf keimte der Samen und eine neue, junge Namu entsprang aus ihm, die bald prächtig blühte, schöner und größer als je zuvor. Eines Tages kam ein Junge an diesen Ort. Namu hatte noch nie einen Menschen gesehen, aber von Vögeln hatte sie schreckliche Geschichten über sie gehört. Die Vögel hatten ihr erzählt, wie grausam die Menschen sind, wie sie Tiere, Pflanzen und Vögel fressen und wie sie alles Lebende auf ihrem Weg zerstören. Und oft machten sie es einfach nur zum Spaß. Namu hielt vor Entsetzen den Atem an und bereitete sich auf das Schlimmste vor.</p><p>Der Junge kam ganz nahe an sie heran. Vom zarten Duft der Blüten verzaubert sank er ins Gras, um sie besser sehen zu können. „Wer bist du?“, fragte der Junge, „ich habe noch nie eine so wundervolle Pflanze gesehen.“ Namu sah den Jungen von der Seite an, so dass er nicht bemerkte, dass sie ihn beobachtete. Er war überhaupt nicht wie die rücksichtslosen Schurken, über die ihr die Vögel erzählt hatten. „Wenn er mich verletzen wollte, würde er mich vorher noch nach meinem Namen fragen? Nein, er ist bestimmt kein Mensch, er ist einfach ein seltsames Tierchen“, dachte sie und sagte leise:<br>„Namu, mein Name ist Namu. Und wer bist du? Ich habe noch nie ein Tier mit so wenig Fell gesehen“.</p>
+  </div>
+  
+  
+  <section style="height:100px;"></section>
+   
+   
+   
+   
+  </div>
+ 
+ 
+ 
+ 
+ <!-- fixed -->
+ <div class="fixed">
+ <p>
+ <a href="http://www.buynowimmediately.com" target="_blank">
+ Some annoying ad.<br>Buy our product until it's too late.
+ </a>
+ </p>
+ <a href="#" style="position:absolute;top:0;right:1px;text-decoration:none;" onclick="document.querySelector('.fixed').remove();"><span>X</span></a>
+ </div>
+ 
+ 
+ 
+<footer>
+ Logo GmbH &copy;2020
+</footer>
+
+ <script>
+  document.querySelector("#date").innerHTML = new Date().toDateString();
+  check_logged_in();
+ </script>
+
+</body>
+</html>
